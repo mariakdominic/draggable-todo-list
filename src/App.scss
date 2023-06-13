@@ -1,0 +1,51 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+
+  >input,
+  button {
+    padding: .75rem;
+  }
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: .75rem 0 ;
+  margin: .5rem; 
+}
+
+.not-selected {
+  background-color: rgb(113, 113, 152);
+  border-radius: 5px;
+}
+.selected {
+  background-color: rgb(179, 108, 108);
+}
+button {
+  width: 30%;
+  border-radius: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
