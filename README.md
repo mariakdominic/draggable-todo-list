@@ -1,3 +1,7 @@
+# Draggable toDo List
+
+React JS project that makes a todo list draggable and a delete button to remove an item from the list.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
